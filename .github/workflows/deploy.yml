@@ -34,10 +34,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3.0.0
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
-- name: Setup pnpm
-  uses: pnpm/action-setup@v3.0.0
+
             
