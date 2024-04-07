@@ -34,8 +34,7 @@
     "sharp": "^0.33.2",
     "svelte": "^4.2.12",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.2",
-    "pnpm": "^8.15.6"
+    "typescript": "^5.4.2"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.6.0",
@@ -46,6 +45,7 @@
     "@iconify-json/material-symbols": "^1.1.74",
     "@rollup/plugin-yaml": "^4.1.2",
     "@tailwindcss/typography": "^0.5.10",
-    "stylus": "^0.63.0"
+    "stylus": "^0.63.0",
+    "pnpm": "^8.15.6"
   }
 }
