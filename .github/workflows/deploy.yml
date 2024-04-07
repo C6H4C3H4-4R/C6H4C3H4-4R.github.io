@@ -1,6 +1,19 @@
 name: Deploy to GitHub Pages
 
 on:
+  - push
+  - pull_request
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          
+on:
   # 每次推送到 `main` 分支时触发这个“工作流程”
   # 如果你使用了别的分支名，请按需将 `main` 替换成你的分支名
   push:
