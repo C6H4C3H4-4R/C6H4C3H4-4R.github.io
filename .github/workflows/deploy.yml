@@ -1,3 +1,5 @@
+name: Deploy to GitHub Pages
+
 on:
   - push
   - pull_request
@@ -10,10 +12,6 @@ jobs:
       - uses: pnpm/action-setup@v3
         with:
           version: 8
-
-name: Deploy to GitHub Pages
-
-
 
 
 on:
